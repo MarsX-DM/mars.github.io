@@ -1,2 +1,2 @@
-# MarsJ's Blog
-MarsJ's Blog for sharing learning notes and applying results.
+# Mars's Blog
+Mars's Blog for sharing AI & life
