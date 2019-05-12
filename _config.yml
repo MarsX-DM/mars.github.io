@@ -102,10 +102,10 @@ friends: [
         title: "王喆的机器学习笔记",
         href: "https://zhuanlan.zhihu.com/wangzhenotes"
     },{
-        title: "石晓文的学习笔记(公众号:小小挖掘机)",
-        href: "https://www.jianshu.com/u/c5df9e229a67"
-    },{
         title: "LibRec",
         href: "https://www.librec.net/"
+    },{
+        title: "小小挖掘机",
+        href: "https://www.jianshu.com/u/c5df9e229a67"
     }
 ]
