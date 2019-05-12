@@ -1,2 +1,2 @@
 # MarsJiao.github.io
-MarsJ's Blog for sharing data technology learning notes and applying results.
+Mars' Blog for sharing recommendation system, computational advertising, multimedia mining and knowledge graph.
