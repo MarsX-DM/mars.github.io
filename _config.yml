@@ -1,8 +1,8 @@
-title: MarsJ's Data Life
-description: MarsJ's Blog for sharing data technology learning notes and applying results.
+title: Mars' Blog
+description: Mars' Blog for sharing recommendation system, computational advertising, multimedia mining and knowledge graph.
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-slate
+theme: pacman
 
 gems:
   - jekyll-mentions
