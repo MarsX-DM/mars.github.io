@@ -1,0 +1,8 @@
+title: MarsJ's Data Life
+description: MarsJ's Blog for sharing data technology learning notes and applying results.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
