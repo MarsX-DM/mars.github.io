@@ -36,6 +36,22 @@ header-img: "img/post-bg-rwd.jpg"
     </ul>
 </div>
 
+<div id="header">
+        <h1>读取python运行的结果</h1>
+</div>
+
+<!-- 按键开始执行python程序 -->
+<div id="program">
+    <input type="button" value="运行 python" οnclick="exec1('python test3.py')">
+</div>
+
+<!-- 读取python运行结果 -->
+<!-- 链接的 target 属性必须引用 iframe 的 name 属性 -->
+<div id="result">
+    <p><a href="number.txt" target="result">结果</a></p>
+    <iframe name="result" width="100" height="30" scrolling="no" frameborder="3"></iframe>
+</div>
+
 <!-- English Version -->
 <!-- <div class="en post-container">
     <blockquote><p>Yet another iOS Developer. <br>
@@ -56,6 +72,15 @@ header-img: "img/post-bg-rwd.jpg"
     <li><a href="https://qiubaiying.github.io">BY</a></li>
     </ul>
 </div> -->
+
+<script language="javascript">
+    function exec1(command) {
+        var ws = new ActiveXObject("WScript.Shell");
+        ws.run(command);
+    }
+</script>
+ 
+
 
 <!-- Handle Language Change -->
 <script type="text/javascript">
