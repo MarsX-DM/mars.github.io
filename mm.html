@@ -15,15 +15,17 @@ header-img: "img/post-bg-rwd.jpg"
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <h5>几年前为MM做的一个小工具（计算幼儿体测得分）</h5>
-    <blockquote><p>一键上传体测表，即得体测得分<br>
-    请务必按照指定格式上传，否则无法计算哦！<br>
-    序号/性别/出生日期/年龄/身高//体重/10米折返跑/立定跳远/网球掷远/双脚连续跳/坐位体前屈/走平衡木</p></blockquote>
+    <h5>几年前为MM做的一个小工具</h5>
+    <blockquote><p>计算幼儿体测得分: <br>
+    1. 一键上传体测表，即得体测得分~<br>
+    2. 请务必按照指定格式上传，否则无法计算哦！<br>
+    3. 指定格式：序号/性别/出生日期/年龄/身高//体重/10米折返跑/立定跳远/网球掷远/双脚连续跳/坐位体前屈/走平衡木<br>
+    4. 各项成绩单位去除，各项目顺序及名称请不要修改，请一定去除姓名信息!<br></p></blockquote>
 </div>
 
 <!-- 按键开始执行python程序 -->
 <div id="program">
-    <input type="button" value="计算体测" οnclick="exec1('python TC.py')">
+    <input type="button" value="计算体测" οnclick="exec1('python test3.py')">
 </div>
 <!-- 读取python运行结果 -->
 <!-- 链接的 target 属性必须引用 iframe 的 name 属性 -->
@@ -31,6 +33,7 @@ header-img: "img/post-bg-rwd.jpg"
     <p><a href="number.txt" target="result">结果</a></p>
     <iframe name="result" width="100" height="30" scrolling="no" frameborder="3"></iframe>
 </div>
+
 <script language="javascript">
     function exec1(command) {
         var ws = new ActiveXObject("WScript.Shell");
